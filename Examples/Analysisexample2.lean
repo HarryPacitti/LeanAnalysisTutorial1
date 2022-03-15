@@ -152,7 +152,7 @@ apply lt_of_abs_lt h₂,--We solve our goal by using the fact |a| < b → a < b 
 end
 
 
---Now we move onto a proof that convergent sequences are bounded
+--Now we move onto a proof that convergent sequences are eventually bounded
 
 #check (le_abs_self : ∀ (a :ℝ) , a ≤ |a|)
 #check (sub_lt_iff_lt_add' : a - b < c ↔ a < b + c)

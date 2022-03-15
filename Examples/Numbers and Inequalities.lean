@@ -62,3 +62,4 @@ begin
     induction n with n hn; simp [pow_zero, pow_succ],
     nth_rewrite 0 ←mul_one (1 : ℝ), apply mul_le_mul; linarith },
 end
+

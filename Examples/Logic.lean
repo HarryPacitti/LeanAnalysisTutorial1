@@ -28,7 +28,6 @@ apply h₂,
 exact ha,
 left,
 exact ha,
-
 end
 
 theorem de_morgan1 (A B : Prop) : ¬ (A∨B) ↔ (¬A) ∧ (¬B) :=
